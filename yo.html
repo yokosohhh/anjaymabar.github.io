@@ -1,0 +1,128 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <title>HACKED BY AMBATOVICH</title>  
+  <style>  
+    body {  
+      margin: 0;  
+      padding: 0;  
+      background-color: black;  
+      color: #00ff00;  
+      font-family: 'Courier New', Courier, monospace;  
+      overflow-x: hidden;  
+    }  
+  
+    h1 {  
+      font-size: 4em;  
+      text-align: center;  
+      margin-top: 5vh;  
+      text-shadow: 0 0 10px #00ff00, 0 0 20px red;  
+      animation: flicker 1s infinite;  
+    }  
+  
+    .logo {  
+      display: flex;  
+      justify-content: center;  
+      margin-top: 20px;  
+    }  
+  
+    .logo img {  
+      width: 250px;  
+      height: auto;  
+      border-radius: 10px;  
+    }  
+  
+    .message {  
+      text-align: center;  
+      font-size: 1.5em;  
+      margin-top: 30px;  
+      color: red;  
+      animation: red-glitch 0.2s infinite;  
+      position: relative;  
+      z-index: 1;  
+    }  
+  
+    .message div {  
+      margin: 10px 0;  
+    }  
+  
+    .glitch {  
+      margin-top: 40px;  
+      width: 100%;  
+      text-align: center;  
+      font-size: 1.8em;  
+      color: red;  
+      text-shadow: 2px 2px blue, -2px -2px green;  
+      animation: glitch 0.3s infinite;  
+      position: relative;  
+      z-index: 1;  
+    }  
+  
+    .noise {  
+      position: fixed;  
+      top: 0;  
+      left: 0;  
+      width: 100%;  
+      height: 100%;  
+      background-image: url('https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUybXl6eDNuc2k1ZWNzbHJsMjk0ZnA0cmFvaGp2ZXdpNjk1M2ZnZzg2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G5VEnkzWsZ5XvxsnXx/giphy.gif');  
+      opacity: 0.08;  
+      z-index: 0;  
+      pointer-events: none;  
+    }  
+  
+    @keyframes flicker {  
+      0%, 100% { opacity: 1; }  
+      50% { opacity: 0.4; }  
+    }  
+  
+    @keyframes glitch {  
+      0% { transform: translate(1px, -1px); }  
+      20% { transform: translate(-2px, 2px); }  
+      40% { transform: translate(3px, -1px); }  
+      60% { transform: translate(-1px, 1px); }  
+      80% { transform: translate(2px, -2px); }  
+      100% { transform: translate(0, 0); }  
+    }  
+  
+    @keyframes red-glitch {  
+      0% { transform: translate(0px, 0px); }  
+      20% { transform: translate(-1px, 1px); }  
+      40% { transform: translate(1px, -2px); }  
+      60% { transform: translate(-2px, 1px); }  
+      80% { transform: translate(2px, -1px); }  
+      100% { transform: translate(0px, 0px); }  
+    }  
+  </style>  
+</head>  
+<body>  
+  <div class="noise"></div>  
+  
+  <h1>HACKED BY AMBATOVICH</h1>  
+  
+  <div class="logo">  
+    <img src="putin-hengker.png" alt="AMBATOVICH LOGO">  
+  </div>  
+  
+  <audio autoplay loop>
+    <source src="tikuskantor.mp3" type="audio/mpeg">  
+  </audio>  
+  
+  <div class="message">  
+    <div>HENTIKAN SEGALA JENIS</div>  
+    <div>PERTAMBANGAN DI</div>  
+    <div>RAJA AMPAT!</div>  
+  </div>  
+  
+  <div class="glitch">THIS IS A WARNING... THE EARTH IS NOT FOR SALE!</div>  
+  
+  <script>  
+    document.addEventListener('click', function () {  
+      var audio = document.getElementById('lagu');  
+      if (audio.paused) {  
+        audio.play();  
+      }  
+    }, { once: true });  
+  </script>  
+</body>  
+</html>
